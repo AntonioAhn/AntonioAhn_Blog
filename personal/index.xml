@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Archive on Antonio Ahn</title>
+    <link>/personal/</link>
+    <description>Recent content in Personal Archive on Antonio Ahn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JanTest</title>
+      <link>/personal/2022-01-29-jantest/</link>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/2022-01-29-jantest/</guid>
+      <description>Jut wanna test something out here in jan</description>
+    </item>
+    
+    <item>
+      <title>Uncompressing files</title>
+      <link>/personal/2022-01-29-uncompressing-files/</link>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/2022-01-29-uncompressing-files/</guid>
+      <description>I always forget which codes to use to uncompress different compressed file types.
+This post was really helpful.
+file file.zip # file.zip: Zip archive data, at least v1.0 to extract # solution: To uncompress this file, use unzip. file file.rar # file.rar: RAR archive data, v1d, os: Win32 # solution: To uncompress this file, use unrar. file file.7z # file.7z: 7-zip archive data, version 0.3 # solution: To uncompress this file, user 7z.</description>
+    </item>
+    
+    <item>
+      <title>Bash Notes</title>
+      <link>/personal/2022-01-22-bash-notes/</link>
+      <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/2022-01-22-bash-notes/</guid>
+      <description>Just some bash notes which i find very useful but i keep forgetting.
+Testing out something here &amp;hellip;
+Find   # find multiple files in a directory find $bam_files_dir \( -name &amp;#34;*MDA-MB-453*_unique_aln.bam&amp;#34; -o -name &amp;#34;*M453*_unique_aln.bam&amp;#34; \) # then use that to merge  samtools merge m453_DMSO_7D_merged.bam $(find $bam_files_dir -name &amp;#34;*MDA-MB-453*_unique_aln.bam&amp;#34; | grep -E &amp;#39;DMSO_7d|LY_7d|LYR1000&amp;#39;)yy find $bedfiles_dir/${i}/${j}/output -name &amp;#39;*_[1-9][0-9].bed&amp;#39; -exec cat {} \; &amp;gt; $bedfiles_dir/${i}/${j}/output/${i}_${j}_100_shuffledcombinedTE.bed;  xarg   xarg -I {}  matching different patterns for listing files   # This matches file names with either DMSO_7d.</description>
+    </item>
+    
+    <item>
+      <title>R Notes</title>
+      <link>/personal/2022-01-22-r-notes/</link>
+      <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/2022-01-22-r-notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Set up your social</title>
+      <link>/personal/social/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/social/</guid>
+      <description>There are five places where you can choose to show social icons. Here is the tl;dr:
+ site header (set in config.toml), site footer (set in config.toml),  homepage (set in content/_index.md),  about page in the sidebar (set in content/about/sidebar/index.md), and  contact page (set in content/form/contact.md).  Read on to learn how to set up your social icons, and how to show/hide them.
+Configure social     Wherever you end up wanting to show your social icons, you&amp;rsquo;ll need to start by setting up the links in your site config.</description>
+    </item>
+    
+    <item>
+      <title>Style your site colors</title>
+      <link>/personal/color-themes/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/color-themes/</guid>
+      <description>You can totally customize your site&amp;rsquo;s theme colors within minutes of creating a new site. Read on to find out how, and decide which of the three options meets your needs.
+Use a color theme     Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo; This means you can use a color theme to quickly customize the look of your site without needing to write any CSS.</description>
+    </item>
+    
+    <item>
+      <title>Style your site typography</title>
+      <link>/personal/fonts/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/fonts/</guid>
+      <description>As with color themes, you can completely customize your site&amp;rsquo;s fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.
+Embedded fonts     Hugo Apéro includes 6 embedded fonts that work &amp;ldquo;out of the box.&amp;rdquo; We selected 3 serif and 3 sans-serif options that we thought looked good with this theme, in our humble opinions. All embedded fonts include real italics so you may emphasize to your heart&amp;rsquo;s content ❤️!</description>
+    </item>
+    
+    <item>
+      <title>An evergreen post</title>
+      <link>/personal/evergreen/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/evergreen/</guid>
+      <description>Rendering mathematical equations     Examples from the mathjax demo. But they work with katex as well.
+Rmarkdown     In .Rmarkdown documents, you can use either
+$a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.
+And you can use
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ to get a math paragraph:</description>
+    </item>
+    
+    <item>
+      <title>Using panelsets</title>
+      <link>/personal/seedling/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/seedling/</guid>
+      <description>Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset
+For example, this panelset:
+Hello! 👋 hello
+ Goodbye 💨 goodbye
+  Was created by combining this theme&amp;rsquo;s panelset and panel shortcodes:
+{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}} hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}} goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:</description>
+    </item>
+    
+    <item>
+      <title>An Rmarkdown post</title>
+      <link>/personal/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>An Rmarkdown post</title>
+      <link>/personal/rmarkdown/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/rmarkdown/</guid>
+      <description> Air quality     with(airquality, boxplot(Temp ~ Month)) with(airquality, plot(Ozone ~ Temp)) mlev &amp;lt;- levels(with(airquality, as.factor(Month))) with(airquality, plot(Ozone ~ Temp, pch = as.numeric(mlev), col = mlev)) </description>
+    </item>
+    
+    <item>
+      <title>CSS Grid Scaffold</title>
+      <link>/personal/css-grid-scaffold/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/css-grid-scaffold/</guid>
+      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”     — Chris House, A Complete Guide to CSS Grid Layout 1
+ Overview     Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
+    </item>
+    
+    <item>
+      <title>Built-in Contact Form</title>
+      <link>/personal/built-in-contact-form/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/built-in-contact-form/</guid>
+      <description>Formspree makes it easy to receive submissions from HTML forms on your static website.      Functional Form     This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used.</description>
+    </item>
+    
+  </channel>
+</rss>

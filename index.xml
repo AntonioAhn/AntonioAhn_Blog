@@ -161,7 +161,7 @@ My content section is: collection  My layout is: single-series   part 2!     doe
       <guid>/personal/2022-01-29-uncompressing-files/</guid>
       <description>I always forget which codes to use to uncompress different compressed file types.
 This post was really helpful.
-file file.zip # file.zip: Zip archive data, at least v1.0 to extract # solution: To uncompress this file, use unzip. file file.rar # file.rar: RAR archive data, v1d, os: Win32 # solution: To uncompress this file, use unrar. file file.7z # file.7z: 7-zip archive data, version 0.3 # solution: To uncompress this file, user 7z.</description>
+file file.zip # file.zip: Zip archive data, at least v1.0 to extract # solution: use unzip. file file.rar # file.rar: RAR archive data, v1d, os: Win32 # solution: use unrar. file file.7z # file.7z: 7-zip archive data, version 0.3 # solution: use 7z. file file.tgz # file.tgz: gzip compressed data, from Unix, last modified: Sun Oct 13 01:14:43 2013 # solution: use tar zxvf.</description>
     </item>
     
     <item>
